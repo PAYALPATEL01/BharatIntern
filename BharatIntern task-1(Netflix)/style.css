@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+    color: #fff;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9) 0, rgba(0, 0, 0,0) 70%, rgba(0, 0, 0, 0.9) 100%), url(./Images/img1.png) ;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relatives;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.logo{
+ width: 160px;
+ cursor: pointer;
+
+}
+nav button{
+    border: 0;
+    outline: 0;
+    background-color: #bd1515;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    padding: 8px 30px;
+    display: inline-flex;
+    justify-content: center;
+    
+}
+#kkk{
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 400;
+    color: inherit;
+    border-radius: 2px;
+    padding:6px 18px 6px 15px;
+    
+    border:1px solid #fff;
+   
+    align-items: center;
+    
+} 
+.lang-content{
+    display: inline-flex;
+}
+
+.signinbtm{
+    padding: 8px 15px 8px 15px;
+    font-size: 15px;
+    font-weight: 700;
+}
+.down-icon{
+    width: 10px;
+    margin-left: 10px;
+}
+.weblogo{
+    width: 20px;
+    margin-right: 10px;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 220px;
+}
+.ptag
+{
+    margin: 2rem 0 0;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.h1tag{
+    margin: 0;
+    font-size: 2.8rem ;
+    font-weight: 800;
+}
+.h3tag{
+    margin: 2rem 0 0;
+   
+    font-weight: 400;
+    font-size: 1.3rem;
+    line-height: 1.6875rem;
+}
+.signup{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.hhh{
+    background: transparent;
+    line-height: 1.5rem;
+    padding: 1.5rem 7rem 0.5rem;
+    font-size: 1rem;
+    margin-right: 8px;
+    border-radius: 4px;
+    border-color: 1px solid #fff;
+    
+}
+.bbb{
+    line-height: 1.5rem;
+    padding: 15px 30px;
+    
+    border-radius: 4px;
+    background-color: #bd1515;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding:0 ;
+    margin-top: 0;
+    border-top: 3px solid grey;
+
+
+}
+.part-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 110px;
+}
+.part-2{
+    display: flex;
+    justify-content: center;
+    padding: 110px;
+}
+.part-1 h1{
+   
+    font-size: 3em;
+    font-weight: bold;
+}
+.part-1 h3{
+    margin: 2rem 0 0;
+   
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 1.687rem;
+}
+
+
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    border-top: 3px solid grey;
+    margin-top: 0;
+    
+}
+.faq h2{
+    display: block;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 20px
+    
+}
+.accordion{
+    
+    width: 100%;
+    max-width: 1000px;
+
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding:5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding:25px;
+    font-size: 25px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content:'+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+     display: none;
+    }
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked +label ::after{
+    transform: rotate(135deg);
+}
+li p{
+    font-size: 1.5rem;
+    
+}
+/*  foooter css  */
+.footertext{
+    color:rgba(255, 255, 255, 0.7) ;
+}
+#languageselect {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+  }
